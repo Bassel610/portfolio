@@ -1,0 +1,503 @@
+.margin{
+    margin: 140px;
+}
+/* start Nav */
+.Nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(63 61 61 / 74%);
+    z-index: 1000000;
+    margin-bottom: 120px;
+}
+.Logo{  
+    float: left;
+    width: 300px;
+    position: relative;
+    top: -70px;
+    right: 40px;
+}
+.RaghteList{
+    position: absolute;
+    right: 0;
+}
+.UlNav{
+    display: flex;
+}
+.LiNav{
+    list-style: none;
+    margin: 15px 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.LiNav:hover{
+    color: #ab844e;
+}
+.MobUlNav{
+    /* display: flex; */
+    position: fixed;
+    left: 0px;
+    top: 100px;
+    background-color: #403e3e;
+    width: 100%;
+    transition: 1s;
+    transform: translateY(-1000px);
+}
+.MobLiNav{
+    list-style: none;
+    margin: 15px 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom:2px solid #ab844e;
+    display: block;
+    padding: 8px;
+}
+.MobLiNav:hover{
+    color: #ab844e;
+}
+.ActiveNav{
+    color: #ab844e;
+}
+.BarsIcon{
+    font-size: 24px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    transition: 1S;
+    display: none;
+    cursor: pointer;
+}
+
+/* End Nav */
+
+/* Start About */
+.AboutWorkSection{
+    width: 100%;
+    height: 900px;
+}
+
+.AboworktTx{
+    width: 100%;
+    text-align: center;
+}
+.AboutCol{
+    color: #ab844e;
+    letter-spacing: 6px;
+}
+.WorkCol{
+    color: white;
+    letter-spacing: 6px;
+}
+.ImgesForAbout{
+    width: 100%;
+    height: 750px;
+    position: relative;
+    top: 80px;
+    display: flex;
+}
+.IMG1{
+    width: 450px;
+    height: 450px;
+    margin-left: 20px;
+}
+.IMG2{
+    width: 350px;
+    height: 400px;
+    position: relative;
+    left: -150px;
+    top: 170px;
+    display: inline-block;
+}
+.IMG3{
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 290px;
+    left: -340px;
+    z-index: 10000;
+    display: inline-block;
+}
+.IMG4{
+    width: 350px;
+    height: 400px;
+    position: relative;
+    left: -470px;
+    top: 170px;
+    z-index: 2;
+    display: inline-block;
+}
+.IMG5{
+    width: 450px;
+    height: 450px;
+    position: relative;
+    left: -675px;
+    display: inline-block;
+}
+.BorderAboImg{
+    border-style: solid;
+    border-width: 4px 4px 4px 4px;
+    border-color: #A7814E;
+}
+/* End About Work */
+/* Start AboutUsSection */
+.AboutUsSection{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+}
+.AboutUS{
+    width: 100%;
+    position: relative;
+    top: 100px;
+    display: flex;
+}
+.AboutUStx{
+    display: inline;
+    float: left;
+    width: 40%;
+    height: 300px;
+    margin: 20px;
+    color: #757272;
+}
+
+.AboutUSImg{
+    display: inline;
+    float: right;
+    width: 400px;
+    height: 400px;
+    background-color: rebeccapurple;
+    position: relative;
+    top: -50px;
+    right: 50px;
+}
+
+
+/* End AboutUsSection */
+/* Start Slider */
+.Swiber{
+    width: calc(100% - 65px);
+    height: 500px;
+    background-color: rgb(63 61 61 / 74%);
+    margin-left: 65px !important;
+    transform: translateX(-65px);
+}
+.SWIPER{
+    position: relative;
+    top: 30px;
+}
+.AllCard{
+    width: 100%;
+    height: 400px;
+    overflow: visible;
+    position: relative;
+}
+.Card{
+    display: inline-block;
+    width: 400px !important;
+    height: 600px !important;
+    margin: 0  !important;
+    margin-right: 6px !important;
+    cursor: pointer;
+}
+.DetiCard{
+    width: 100%;
+    height: 100%;
+}
+.ImgCard{
+    width: 100%;
+    height: 70%;
+    display: block;
+}
+.P1Crd{
+    color: white;
+    font-weight: bold;
+    line-height: 1;
+    font-size: 20px;
+    position: relative;
+    top: -60px;
+    width: 170px;
+
+}
+.P1Crd:hover{
+    border-bottom: 3px solid white;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    content: 'next';
+    color: black !important;
+    font-size: 20px !important;
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    top: -45px;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    content: 'prev';
+    color: black !important;
+    font-size: 20px !important;
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    top: -45px;
+}
+
+
+
+/* End Swiper */
+/* start Footer  */
+.Footer{
+    width: 100%;
+    height: 100px;
+    background-color: #403e3e;
+    margin-top: 10px;
+    position: relative;
+}
+.FooterIcons{
+    position: absolute;
+    bottom: 0;
+}
+.Icon{
+    font-size: 24px;
+    margin: 6px;
+}
+/* start Footer  */
+/* Global Clases */
+body{
+    background-color: rgba(0, 0, 0, 0.927);
+}
+a{
+    text-decoration: none;
+}
+.ColBl{
+    color: black;
+}
+.ColGold{
+    color: #ab844e;
+}
+/* Start AboutMe  */
+.TextAndImagAbout{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.TextAbout{
+    width: 100%;
+    text-align: center;
+    /* margin-left: 25px; */
+}
+.TheText{
+    width: 70%;
+    display: inline-block;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 36px;
+    font-family: initial;
+    font-style: italic;
+    font-size: larger;
+    font-weight: 500;
+    /* float: right; */
+}
+.TheImage{
+    width: calc(30% - 70px);
+    height: 300px;
+    background: white;
+    margin-left: 100px;
+}
+.ImgAbout{
+    position: relative;
+    top: 36%;
+    left: 40%;
+    font-size: 40px;
+}
+.MyWork{
+    font-size: 35px;
+    margin: 20px;
+    font-weight: 700;
+    font-family: initial;
+    font-style: italic;
+}
+.LineMyWork{
+    width: 141px;
+    height: 2px;
+    background: #744605;
+    margin-left: 54px;
+    margin-top: -3px;
+}
+/* End AboutMe  */
+/* Start CV  */
+.CV{
+    margin: auto;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    line-height: 28px !important;
+}
+/* End CV  */
+/* start ContactMe  */
+.AllContcMe{
+
+}
+.SocialMedia{
+    display: flex;
+}
+.IcoContactMe{
+    margin: 12px;
+    color: white;
+}
+.TextContactMe{
+    font-size: 23px;
+    margin: 14px;
+    color: gray;
+    font-family: cursive;
+    font-style: oblique;
+    letter-spacing: 1px;
+    color: #ab844e;
+}
+.LinkContactMe{
+    font-size: 21px;
+    margin: 14px;
+    letter-spacing: 2px;
+}
+.colorWhi{
+    color: white;
+}
+.colorWhi:hover{
+    color: #ab844e;
+}
+/* End ContactMe  */
+/* Start MyWork  */
+
+.AllCards{
+    width: calc(100% - 150px);
+    height: auto;
+    padding-left: 10% ;
+}
+.AllProject{
+    display:inline-flex;
+}
+.Cards{
+    width: 300px;
+    height: 311px;
+    background-color: #212020;
+    padding: 24px;
+    margin: 8px;
+    border: 4px solid #67471b;
+}
+.ImageForCards{
+    width: 100%;
+    height: 82%;
+}
+.TitleForCards{
+    color: white;
+    font-size: 21px;
+    font-family: emoji;
+    font-style: italic;
+    font-weight: 800;
+    margin-top: 9px;
+}
+.ViewForCards{
+    color: white;
+    font-size: 18px;
+    font-family: emoji;
+    font-style: italic;
+    font-weight: 800;
+    margin-top: 9px;
+    cursor: pointer;
+}
+.ViewForCards:hover{
+    color: #ab844e;
+}
+/* End MyWork  */
+/* Start AllDeetils  */
+.OverLine{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000ba;
+    z-index: 1;
+    /* display: none; */
+}
+.DisplayNon{
+    
+    display: none;
+}
+.TheProject{
+    width: 100%;
+    height: auto;
+}
+.TheDetils{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.Imageproject{
+    width: 55%;
+    margin-left: 23px;
+    border: 3px solid #67471b;
+}
+.Titleproject {
+    color: white;
+    font-size: 27px;
+    margin: 20px;
+    font-family: auto;
+    font-style: revert;
+    letter-spacing: 2px;
+    height: 30px;
+}
+.AllProjectDetils{
+    width: 378px;
+    display: block;
+    position: absolute;
+    right: 70px;
+    top: 42%;
+}
+.AllImgesProject{
+    margin-top: 31px;
+    margin-left: 61px;
+}
+.ImagesDetils{
+    width: 182px;
+    margin: 7px;
+    border: 3px solid #67471b;
+    cursor: pointer;
+}
+.ImagesDetilsOverLay{
+    width: 455px;
+    margin: 7px;
+    border: 6px solid #543812;
+    cursor: pointer;
+    position: fixed;
+    top: 24%;
+    left: 32%;
+    z-index: 1;
+}
+.BTNCLOSEnone{
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    display: none;
+}
+.BTNCLOSE{
+    display: inline-flex;
+    width: 40px;
+    height: 30px;
+    position: fixed;
+    top: 24.7%;
+    left: 61.9%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+/* End AllDeetils  */

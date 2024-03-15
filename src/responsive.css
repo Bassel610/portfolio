@@ -1,0 +1,173 @@
+/* start Resbosive FOr Nav */
+.Transform{
+    transform: translateY(0px) !important;
+}
+.Routet{
+    transform: rotateZ(90deg);
+}
+@media (max-width: 380px) {
+    .UlNav{
+        display: none;
+    }
+    .BarsIcon{
+        display: block;
+    }
+}
+@media (max-width: 1000px) {
+    .UlNav{
+        display: none;
+    }
+    .BarsIcon{
+        display: block;
+    }
+}
+
+/* End Resbosive FOr Nav */
+/* START Resbosive FOr About Work */
+@media (max-width: 1000px) {
+    .AboutWorkSection{
+        height: auto;
+    }
+    .ImgesForAbout{
+        display: block;
+        height: auto;
+    }
+    .AboworktTx{
+        font-size: 23px;
+    }
+    .IMG1{
+        display: block;
+        width: 90%;
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .IMG2{
+        display: block;
+        width: 90%;
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-left: 10px;
+
+        margin-top: 10px;
+    }
+    .IMG3{
+        display: block;
+        width: 90%;
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .IMG4{
+        display: none;
+    }
+    .IMG5{
+        display: none;
+    }
+    .TheText {
+        margin-bottom: 110px;
+    }
+}
+/* End Resbosive FOr About Work */
+/* Start Resbosive For AboutUsSection */
+
+/* End Resbosive For AboutUsSection */
+/* Start Resbosive For AboutUsSection */
+
+@media (max-width: 1000px) {
+    .AboutUsSection{
+        position: relative;
+        left: -13px;
+        width: 90%;
+        height: 285px;
+    }
+    .AboutUStx{
+        width: 98%;
+        line-break: anywhere;
+        margin-bottom: 37px;
+    }
+    .AboutUSImg{
+    position: relative;
+    left: 10px;
+    width: 90%;
+    height: 304px;
+    margin-bottom: 100px;
+    }
+}
+/* End Resbosive For AboutUsSection */
+/* Start Resbosive For Swiper */
+@media (max-width: 1000px) {
+    .Swiber{
+        display: inline-block;
+        transform: translateX(-35px);
+    }
+}
+/* End Resbosive For Swiper */  
+/* Start AboutMe*/  
+@media (max-width: 1000px) {
+    .TextAndImagAbout{
+        display: inline;
+    }
+    .TextAbout{
+        width: 90%;
+    }
+    .TheImage{
+        display: none;
+    }
+}
+
+/* End AboutMe */  
+/* Start AllDetils*/  
+@media (max-width: 1000px) {
+    .TheDetils{
+        display: inline;
+    }
+    .AllImgesProject{
+        margin-top: 31px;
+        margin-left: 0px;
+        display: inline;
+    }
+    .ImagesDetils {
+        width: calc(100% / 2 - 50px);
+        margin: 7px;
+        border: 3px solid #67471b;
+        cursor: pointer;
+    }
+    .ImagesDetilsOverLay {
+        width: 288px;
+        margin: 7px;
+        border: 6px solid #543812;
+        cursor: pointer;
+        position: fixed;
+        top: 24%;
+        left: 2%;
+        z-index: 1;
+    }
+    .BTNCLOSE {
+        display: inline-flex;
+        width: 40px;
+        height: 30px;
+        position: fixed;
+        top: 24.7%;
+        left: 81.9%;
+        z-index: 2;
+        cursor: pointer;
+    }
+    .Cards {
+        width: 202px;
+        height: 236px;
+        background-color: #212020;
+        padding: 24px;
+        margin: 8px;
+        border: 4px solid #67471b;
+    }
+    
+    
+}
+
+/* End AllDetils */  
